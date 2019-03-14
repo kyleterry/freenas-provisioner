@@ -3,8 +3,9 @@ package freenas
 import (
 	"crypto/tls"
 	"fmt"
-	"github.com/dghubble/sling"
 	"net/http"
+
+	"github.com/dghubble/sling"
 )
 
 type FreenasResource interface {

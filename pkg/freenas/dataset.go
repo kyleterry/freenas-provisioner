@@ -4,8 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/golang/glog"
 	"path/filepath"
+
+	"github.com/golang/glog"
 )
 
 var (

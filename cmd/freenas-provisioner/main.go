@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/nmaupu/freenas-provisioner/cli"
+	"github.com/kyleterry/freenas-provisioner/pkg/cli"
 )
 
 const (

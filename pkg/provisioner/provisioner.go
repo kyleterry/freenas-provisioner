@@ -1,18 +1,19 @@
 package provisioner
 
 import (
-	"code.cloudfoundry.org/bytefmt"
 	"errors"
 	"fmt"
-	"github.com/golang/glog"
-	"github.com/kubernetes-sigs/sig-storage-lib-external-provisioner/controller"
-	"github.com/nmaupu/freenas-provisioner/freenas"
-	"k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/client-go/kubernetes"
 	"path/filepath"
 	"strconv"
 	"strings"
+
+	"code.cloudfoundry.org/bytefmt"
+	"github.com/golang/glog"
+	"github.com/kubernetes-sigs/sig-storage-lib-external-provisioner/controller"
+	"github.com/kyleterry/freenas-provisioner/pkg/freenas"
+	"k8s.io/api/core/v1"
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	"k8s.io/client-go/kubernetes"
 )
 
 var (
